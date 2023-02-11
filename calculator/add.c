@@ -7,9 +7,9 @@ int main()
   int z;
 
   printf("A Program to accept and add two numbers\n"); 
-  printf("hello, Please enter your first number\n"); //this part ask user to input the number
+  printf("hello, Please enter your first number:"); //this part ask user to input the number
   scanf("%d",&x);  //this line accept inputs
-  printf("Please enter another number\n");
+  printf("Please enter another number:");
   scanf("%d",&y); 
 
   z = x + y;   //the calculation happens here.
